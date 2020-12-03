@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <title>Multimedia</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+    body {
+      background-image: url('main2.png');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+    }
+    .text1 {
+      color: rgb(253, 253, 253);
+      font-family: 'Raleway', sans-serif;
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .text2 {
+
+      color: rgb(253, 253, 253);
+      font-family: 'Raleway', sans-serif;
+      text-align: justify;
+      text-indent: 150px;
+      padding-top: 100px;
+      line-height: 0;
+      font-size: 20px;
+    }
+
+    .text3 {
+
+      color: rgb(253, 253, 253);
+      font-family: 'Bodoni 72 Smallcaps';
+      text-align: justify;
+      text-indent: 150px;
+      line-height: 0;
+
+      font-size: 70px;
+
+
+    }
+
+    .team {
+      color: rgb(241, 241, 241);
+      font-family: 'Raleway', sans-serif;
+      text-align: justify;
+      text-indent: 20px;
+      padding-top: 350px;
+      line-height: 0;
+      font-size: 14px;
+
+
+    }
+
+    .mm {
+      color: rgb(241, 241, 241);
+      font-family: 'Raleway', sans-serif;
+      line-height: 1;
+    }
+
+    .fix {
+      position: fixed;
+      top: 650px;
+
+    }
+
+
+
+    .Buttons1 {
+      position: absolute;
+      top: 40%;
+      left: 12%;
+      transform: translate(-50, -50);
+      background: none;
+
+      width: 150px;
+      height: 40px;
+      border: 1px solid #7836D6;
+
+      border-radius: 50px;
+      transition: .6s;
+      overflow: hidden;
+    }
+
+    .Buttons1 button {
+      background: none;
+      color: rgb(241, 241, 241);
+      width: 150px;
+      height: 40px;
+      border: 1px solid #7836D6;
+      font-size: 40 px;
+      border-radius: 50px;
+
+    }
+
+    .Buttons1:focus {
+      outline: none;
+    }
+
+    .Buttons1:before {
+      content: '';
+      display: block;
+      position: absolute;
+      background: #7836D6;
+
+
+      left: 0;
+      top: 0;
+      opacity: .5;
+      filter: blur(30px);
+      transform: translateX(-130px) skewX(-15deg);
+    }
+
+    .Buttons1:after {
+      content: '';
+      display: block;
+      position: absolute;
+      width: 30px;
+      height: 100%;
+      left: 30px;
+      top: 0;
+      opacity: 0;
+      filter: blur(30px);
+      transform: translateX(-100px) scaleX(-15deg);
+    }
+
+    .Buttons1:hover {
+      background: #7836D6;
+      cursor: pointer;
+
+    }
+
+    .Buttons1:hover:before {
+      transform: translateX(300px) skewX(-15deg);
+      opacity: .6;
+      transition: .7s;
+    }
+
+    .Buttons1:hover:after {
+      transform: translateX(300px) skewX(-15deg);
+      opacity: 1;
+      transition: .7s;
+
+    }
+    .Buttons1.Buttons1:onclicl{
+      
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="text1">
+    <pre> King Abdualaziz University - Faculty of Computer and Information Technology - CPIT 380 </pre>
+  </div>
+
+  <div class="text2">
+    <pre> Welcome To </pre>
+
+  </div>
+
+  <div class="text3">
+    <p> Multimedia Editor </p>
+  </div>
+
+  <div class="team">
+    <div class="fix">
+      <div class="mm">
+        <p> <b> Team Meamber </b></p>
+      </div>
+      <p> Atheer Alghamdi - 1806236</p>
+      <p> Ghada Alsulam - 1806901</p>
+      <p> Maha Benaider - 1805332</p>
+    </div>
+  </div>
+  <div class="Buttons1">
+        <button onclick="document.location = '3parts.html'"> Choose an Editor </button> 
+  </div>
+
+</body>
+
+</html>

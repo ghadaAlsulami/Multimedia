@@ -1,0 +1,146 @@
+.row{
+
+    /* background-image: url('3Parts.png');*/
+     background-image: url('all4.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+}
+
+.team{
+    color: rgb(253, 253, 253);
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    text-indent: 20px;
+    padding-top: 350px;
+    line-height: 0;
+    font-size: 15px;
+    
+
+}
+.mm{
+    color: rgb(253, 253, 253);
+    font-family: 'Bodoni 72 Smallcaps';
+    line-height: 1;
+}
+.team::before{
+    content: "";
+    
+    line-height: 0;
+    height: 80px;
+    width: 1px;
+    
+    background: white;
+    float: left;
+   
+    margin-left: 10px;
+
+}
+
+
+.leftSide, .miedalSide, .rightSide{
+
+    height: 100vh;
+    width: 100% ;
+
+}
+
+@media screen and (min-width:768px){
+    .leftSide, .miedalSide, .rightSide{
+        height: 100vh;  
+    }
+
+}
+.leftSide{
+    background:inherit;
+    color: rgb(253, 253, 253);
+    font-family: 'Bodoni 72 Smallcaps';
+    font-size: 50px;
+
+-webkit-backdrop-filter:grayscale();  
+    backdrop-filter: grayscale();  
+
+
+}
+
+.leftSide:hover {
+        -webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+    cursor: pointer; 
+    
+}
+
+.leftSide:hover:before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: .6;
+    transition: .20s;
+}
+
+.leftSide:hover:after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .20s;
+  
+}
+
+
+
+
+.miedalSide{
+    background: inherit;
+    color: rgb(253, 253, 253);
+    font-family: 'Bodoni 72 Smallcaps';
+    font-size: 50px;
+    -webkit-backdrop-filter:grayscale();  
+    backdrop-filter: grayscale();  
+}
+
+.miedalSide:hover {
+    -webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+cursor: pointer; 
+
+}
+
+.miedalSide:hover:before {
+transform: translateX(300px) skewX(-15deg);
+opacity: .6;
+transition: .20s;
+}
+
+.miedalSide:hover:after {
+transform: translateX(300px) skewX(-15deg);
+opacity: 1;
+transition: .20s;
+
+}
+
+
+
+.rightSide{
+    background: inherit;
+    color: rgb(253, 253, 253);
+    font-family: 'Bodoni 72 Smallcaps';
+    font-size: 50px;
+    -webkit-backdrop-filter:grayscale();  
+    backdrop-filter: grayscale();  
+}
+.rightSide:hover {
+    -webkit-backdrop-filter: blur(10px);
+backdrop-filter: blur(10px);
+cursor: pointer; 
+
+}
+
+.rightSide:hover:before {
+transform: translateX(300px) skewX(-15deg);
+opacity: .6;
+transition: .20s;
+}
+
+.rightSide:hover:after {
+transform: translateX(300px) skewX(-15deg);
+opacity: 1;
+transition: .20s;
+
+}
